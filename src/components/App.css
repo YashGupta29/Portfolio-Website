@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Mono:wght@500&family=Zen+Dots&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(68, 194, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 10px;
+  height: 90vh;
+  width: 90vw;
+}
