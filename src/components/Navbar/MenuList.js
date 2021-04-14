@@ -7,7 +7,7 @@ export const MenuList = [
   {
     title: "About",
     url: "/about",
-    theme: "black",
+    theme: "#b8b5ff",
   },
   {
     title: "Projects",
