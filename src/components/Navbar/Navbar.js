@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { MenuList } from "./MenuList";
+import { MenuList } from "../data/MenuList";
 import { NavLink } from "react-router-dom";
 
 const Navbar = ({ changeTheme }) => {
