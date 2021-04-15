@@ -1,6 +1,11 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -34,6 +39,9 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
+            <Route>
+              <Redirect to="/" />
+            </Route>
           </Switch>
           <Footer />
         </Router>
