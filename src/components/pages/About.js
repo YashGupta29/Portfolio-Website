@@ -6,10 +6,10 @@ import Resume from "../assets/Resume.pdf";
 const About = () => {
   return (
     <div className="wrapper about">
-      <div className="left">
+      <div className="lefty">
         <img src={Pic} alt="About" />
       </div>
-      <div className="right">
+      <div className="righty">
         <h1>
           My self <span>Yash Gupta</span>
         </h1>

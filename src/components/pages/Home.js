@@ -5,7 +5,7 @@ import Pic from "../images/pic.png";
 const Home = () => {
   return (
     <div className="wrapper">
-      <div className="left">
+      <div className="lefty">
         <div className="top">
           <h1>
             Hi
@@ -19,7 +19,7 @@ const Home = () => {
           </NavLink>
         </div>
       </div>
-      <div className="right">
+      <div className="righty">
         <img src={Pic} alt="profile" />
       </div>
     </div>

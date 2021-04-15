@@ -1,0 +1,59 @@
+.contain {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  height: 50%;
+  width: 50%;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+label {
+  font-size: 1.5rem;
+}
+.text {
+  line-height: 20px;
+  font-size: 18px;
+  align-self: flex-start;
+  padding: 0 10px;
+  margin-left: 20px;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+  margin-bottom: 8px;
+}
+input,
+textarea {
+  background: transparent;
+  height: 3rem;
+  width: 19rem;
+  border-radius: 25px;
+  padding: 5px 15px;
+  outline: none;
+  border: 1px solid var(--primary);
+  margin: 5px;
+  resize: none;
+}
+textarea {
+  min-height: 6rem;
+}
