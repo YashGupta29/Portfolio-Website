@@ -12,6 +12,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./pages/Footer";
+import Skills from "./pages/Skills";
 
 function App() {
   const [theme, setTheme] = useState("");
@@ -21,6 +22,7 @@ function App() {
     if (curURL.endsWith("/")) setTheme("#1414be");
     else if (curURL.endsWith("/about")) setTheme("#b8b5ff");
     else if (curURL.endsWith("/projects")) setTheme("grey");
+    else if (curURL.endsWith("/skills")) setTheme("#f2709c");
     else if (curURL.endsWith("/contact")) setTheme("green");
   }, [theme]);
 
@@ -37,11 +39,12 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/skills" component={Skills} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
-            <Route>
+            {/* <Route>
               <Redirect to="/" />
-            </Route>
+            </Route> */}
           </Switch>
           <Footer />
         </Router>

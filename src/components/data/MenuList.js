@@ -10,10 +10,16 @@ export const MenuList = [
     theme: "#b8b5ff",
   },
   {
+    title: "Skills ",
+    url: "/skills",
+    theme: "#f2709c",
+  },
+  {
     title: "Projects",
     url: "/projects",
     theme: "grey",
   },
+
   {
     title: "Contact",
     url: "/contact",

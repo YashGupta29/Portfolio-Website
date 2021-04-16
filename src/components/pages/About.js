@@ -20,12 +20,11 @@ const About = () => {
           I live applying responsive design principles and watching my web pages
           shrink into mobile screens and still looking amazing. I'm moldable,but
           I still keep my creative flare intact.{" "}
-          <strong>Worried about my skills?</strong> head on to the projects
-          section to see some of my amazing projects, or just download my
-          resume.
+          <strong>Worried about my skills?</strong> head on to the skills
+          section, or just download my resume.
         </p>
-        <NavLink exact to="/projects" className="btn btn-2">
-          Projects
+        <NavLink exact to="/skills" className="btn btn-2">
+          Skills
         </NavLink>
         <a href={Resume} download="resume.pdf" className="btn">
           Download Resume
