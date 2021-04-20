@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Mono:wght@500&family=Zen+Dots&display=swap");
 
-/* :root {
-  --primary: #1414be;
-} */
+:root {
+  --primary: #b8b5ff;
+}
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-  --primary: #1414be;
+  /* --primary: #1414be; */
   height: 100vh;
   width: 100vw;
   background-color: var(--primary);
@@ -51,7 +51,7 @@ body {
   color: white;
   font-weight: 500;
   padding: 10px 45px;
-  border: 1px solid white;
+  border: 1px solid transparent;
   border-radius: 50px;
   background-color: var(--primary);
   box-shadow: 4px 4px 15px black;
@@ -62,18 +62,16 @@ body {
 .btn:hover {
   background-color: white;
   color: var(--primary);
-  border-color: var(--primary);
 }
 .btn-2 {
   background-color: white;
   color: var(--primary);
-  border: 1px solid var(--primary);
-  box-shadow: 4px 4px 15px transparent;
+  border: 1px solid transparent;
+  box-shadow: -4px -4px -15px black;
 }
 .btn-2:hover {
   background-color: var(--primary);
   color: white;
-  border-color: white;
   box-shadow: 4px 4px 15px black;
 }
 p {
@@ -118,9 +116,9 @@ span {
 .about .righty .btn {
   font-size: 15px;
 }
-.about .righty .btn:hover {
+/* .about .righty .btn:hover {
   box-shadow: 0 0 2px transparent;
-}
+} */
 .about .righty .btn-2:hover {
   box-shadow: 4px 4px 15px black;
 }

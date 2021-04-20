@@ -2,13 +2,14 @@
 
 .skills-body {
   height: 80%;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 .skill-contain {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -33,8 +34,8 @@
 }
 
 .progress-done {
-  background: linear-gradient(to left, #f2709c, #ff9472);
-  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  background: linear-gradient(to left, #b8b5ff, #b8b5ff);
+  box-shadow: 0 3px 3px -5px #b8b5ff, 0 2px 5px #b8b5ff;
   border-radius: 20px;
   color: #fff;
   display: flex;

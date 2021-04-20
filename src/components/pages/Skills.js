@@ -35,8 +35,12 @@ const Skills = () => {
           <SkillBar done="90" />
         </div>
         <div className="skill">
+          <h1>Adobe Photoshop</h1>
+          <SkillBar done="65" />
+        </div>
+        <div className="skill">
           <h1>Adobe XD</h1>
-          <SkillBar done="75" />
+          <SkillBar done="65" />
         </div>
       </div>
     </div>

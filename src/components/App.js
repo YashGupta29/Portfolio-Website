@@ -30,9 +30,11 @@ function App() {
     setTheme(color);
   };
 
-  var style = { "--primary": theme };
+  // var style = { "--primary": theme };
   return (
-    <body style={style}>
+    <body
+    // style={style}
+    >
       <div className="container">
         <Router>
           <Navbar changeTheme={changeTheme} />

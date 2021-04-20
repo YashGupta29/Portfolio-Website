@@ -6,7 +6,11 @@ import linkedin from "../assets/icons/linkedin.svg";
 const Footer = () => {
   return (
     <div className="links">
-      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.instagram.com/_yash_gupta_29/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={insta} alt="Instagram" className="link" />
       </a>
 

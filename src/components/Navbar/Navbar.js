@@ -26,7 +26,7 @@ const Navbar = ({ changeTheme }) => {
         className="logo"
         onClick={() => changeTheme("#1414be")}
       >
-        Portfolio.
+        Port<span>folio.</span>
       </NavLink>
       <ul className="menu-list">{menuList}</ul>
     </nav>
